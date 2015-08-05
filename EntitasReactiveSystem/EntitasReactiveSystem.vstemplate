@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+    <TemplateData>
+        <DefaultName>EntitasReactiveSystem.cs</DefaultName>
+        <Name>Entitas ReactiveSystem</Name>
+        <Description>A system is typically an implementation that iteratively operates on a group of entities that share a specific set of components. Executes when the observed group changes.</Description>
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>10</SortOrder>
+        <Icon>EntitasIcon.ico</Icon>
+    </TemplateData>
+    <TemplateContent>
+        <References />
+        <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">EntitasReactiveSystem.cs</ProjectItem>
+    </TemplateContent>
+</VSTemplate>

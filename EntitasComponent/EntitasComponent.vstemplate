@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+    <TemplateData>
+        <DefaultName>EntitasComponent.cs</DefaultName>
+        <Name>Entitas Component</Name>
+        <Description>The raw data for one aspect of the object. A component simply holds data and does not contain any logic.</Description>
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>10</SortOrder>
+        <Icon>EntitasIcon.ico</Icon>
+    </TemplateData>
+    <TemplateContent>
+        <References />
+        <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">EntitasComponent.cs</ProjectItem>
+    </TemplateContent>
+</VSTemplate>
